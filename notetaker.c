@@ -20,7 +20,7 @@ char *buffer, *datafile;
 
 buffer = (char*) ec_malloc(100);
 datafile = (char*) ec_malloc(40);
-strcpy(datafile, "/home/redpanda/C_code/notes_file");
+strcpy(datafile, "/path/to/your/notes_file");
 
 if(argc<2)
 {usage(argv[0],datafile);}
