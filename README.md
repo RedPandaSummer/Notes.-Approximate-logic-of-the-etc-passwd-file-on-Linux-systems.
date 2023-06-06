@@ -1,7 +1,7 @@
 # Notes.-Approximate-logic-of-the-etc-passwd-file-on-Linux-systems.
-Two files with code in C language for writing notes and searching for notes. 
-When searching for notes, displays only those written by the user with the current ID.
-Compile the notetaker.c file in the following way:
+Two files with code in C language for writing notes and searching for notes.\n
+When searching for notes, displays only those written by the user with the current ID.\n
+Compile the notetaker.c file in the following way:\n
 # (dont forget to change the path to the file in the text of code(/path/to/your/notes_file) to your path to your file):
 gcc -o notetaker notetaker.c
 sudo chown root:root ./notetaker.c
